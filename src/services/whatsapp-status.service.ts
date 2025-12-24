@@ -1,6 +1,5 @@
 import axios from "axios";
 import { env } from "../config/env";
-import en from "zod/v4/locales/en.js";
 
 export async function checkWhatsAppStatus(): Promise<"ACTIVE" | "PENDING" | "UNKNOWN"> {
   try {
